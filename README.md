@@ -1,7 +1,7 @@
 
 # Welcome to Portfolio Repo
 
-git, holbohdoo:
+<!-- git, holbohdoo:
 
 ```bash
 git init 
@@ -11,4 +11,4 @@ git
 git 
 # or
 git 
-```
+``` -->
