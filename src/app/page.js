@@ -1,44 +1,43 @@
 "use client";
 
+import { About } from "@/components/About";
+import { Contact } from "@/components/Contact";
+import { Experience } from "@/components/Experience";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Skill } from "@/components/Skill";
+import { Work } from "@/components/Work";
+import { createContext, useContext, useState } from "react";
 
-import { GetIn } from '../components/getin'
-import { FooterD } from '@/components/footer'
-// import { PageOne } from '@/components/page1'
-import { PageTwo } from '@/components/page2'
-import { PageThree } from '@/components/page3'
-import { PageFour } from '@/components/page4'
-import { PageFive } from '@/components/page5'
-import { HeaderPart } from '@/components/header'
-import { IntroPart } from '@/components/intro'
-import { createContext, useContext, useState } from 'react'
-
-const ColorContext = createContext()
+const DarkContext = createContext();
 
 export default function Home() {
-  const [isDark, setIsDark] = useState(true)
+  const [isDark, setIsDark] = useState(true);
 
   const toggleDarkMode = () => {
-    setIsDark(!isDark)
-  }
+    setIsDark(!isDark);
+  };
   return (
-    <ColorContext.Provider value={{ isDark, toggleDarkMode }} >
-      <div className={`${isDark ? "dark" : ""} w-full bg-gray dark:bg-white flex justify-center flex-col`}>
-
-        <div className="sm:w-screen sm:h-screen p-4   justify-center dark:bg-gray-950 bg-white flex-col">
-          <div className="flex-col flex gap-5">
-            <HeaderPart />
-            <IntroPart isDark={isDark} />
-          </div>
+    <DarkContext.Provider value={{ isDark, toggleDarkMode }}>
+      <div
+        className={`${
+          isDark ? "dark" : ""
+        } w-full dark:bg-white flex flex-col items-center`}
+      >
+        <div className="w-[80%] bg-white dark:bg-black dark:text-white">
+          <Header />
+          <Hero />
+          <About />
+          <Skill />
+          <Experience />
+          <Work />
+          <Contact />
+          <Footer />
         </div>
-        <PageTwo />
-        <PageThree />
-        <PageFour />
-        <PageFive />
-        <GetIn isDark={isDark} />
-        <FooterD />
       </div>
-    </ColorContext.Provider>
-  )
+    </DarkContext.Provider>
+  );
 }
-export const useTheme = () => useContext(ColorContext)
 
+export const useTheme = () => useContext(DarkContext);
