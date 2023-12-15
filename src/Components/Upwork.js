@@ -1,5 +1,5 @@
-import { Button } from "/Button";
-import { Uwork } from "/Uwork";
+import { Button } from "../components/Button";
+import { Uwork } from "../components/Uwork";
 
 const data = [
   {

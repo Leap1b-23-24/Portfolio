@@ -1,10 +1,13 @@
 "use client";
 
 import { useTheme } from "../app/page";
-import { FigmaIcon, FigmaIconDark } from "/assets/FigmaIcon";
-import { GitIcon, GitIconDark } from "/assets/GitIcon";
-import { LocationIcon, LocationIconDark } from "/assets/LocationIcon";
-import { TwitterIcon, TwitterIconDark } from "/assets/TwitterIcon";
+import { FigmaIcon, FigmaIconDark } from "../components/assets/FigmaIcon";
+import { GitIcon, GitIconDark } from "../components/assets/GitIcon";
+import {
+  LocationIcon,
+  LocationIconDark,
+} from "../components/assets/LocationIcon";
+import { TwitterIcon, TwitterIconDark } from "../components/assets/TwitterIcon";
 
 export function MainPage() {
   const { theme, toggleThemeSwitch } = useTheme();

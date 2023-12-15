@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { SunIcon } from "/assets/SunIcon";
-import { MoonIcon } from "/assets/MoonIcon";
+import { SunIcon } from "../components/assets/SunIcon";
+import { MoonIcon } from "../components/assets/MoonIcon";
 import { useTheme } from "../app/page";
 
 export const Navbar = (props) => {

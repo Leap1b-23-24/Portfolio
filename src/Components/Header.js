@@ -2,9 +2,9 @@
 import Link from "next/link";
 import { Navbar } from "../components/Navbar";
 import { useState } from "react";
-import { MenuIcon } from "/assets/MenuIcon";
-import { SunIcon } from "/assets/SunIcon";
-import { MoonIcon } from "/assets/MoonIcon";
+import { MenuIcon } from "../components/assets/MenuIcon";
+import { SunIcon } from "../components/assets/SunIcon";
+import { MoonIcon } from "../components/assets/MoonIcon";
 import { useTheme } from "../app/page";
 
 //Menu Open

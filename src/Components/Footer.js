@@ -1,10 +1,10 @@
-import { Button } from "/Button";
-import { CopyIcon } from "/assets/CopyIcon";
-import { EmailIcon } from "/assets/EmailIcon";
-import { FigmaIcon, FigmaIconDark } from "/assets/FigmaIcon";
-import { GitIcon, GitIconDark } from "/assets/GitIcon";
-import { PhoneIcon } from "/assets/PhoneIcon";
-import { TwitterIcon, TwitterIconDark } from "/assets/TwitterIcon";
+import { Button } from "../components/Button";
+import { CopyIcon } from "../components/assets/CopyIcon";
+import { EmailIcon } from "../components/assets/EmailIcon";
+import { FigmaIcon, FigmaIconDark } from "../components/assets/FigmaIcon";
+import { GitIcon, GitIconDark } from "../components/assets/GitIcon";
+import { PhoneIcon } from "../components/assets/PhoneIcon";
+import { TwitterIcon, TwitterIconDark } from "../components/assets/TwitterIcon";
 import { useTheme } from "../app/page";
 export function Footer() {
   const { theme, toggleThemeSwitch } = useTheme();
