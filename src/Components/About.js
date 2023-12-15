@@ -20,7 +20,7 @@ export const About = () => {
           </h2>
           <div className="About flex flex-col gap-2 mt-6">
             <p className="text-[#4B5563] dark:text-[#D1D5DB] font-normal text-base leading-6 text-justify">
-              I'm a passionate, self-proclaimed designer who specializes in full
+              I&apos;m a passionate, self-proclaimed designer who specializes in full
               stack development (React.js & Node.js). I am very enthusiastic
               about bringing the technical and visual aspects of digital
               products to life. User experience, pixel perfect design, and
@@ -28,10 +28,10 @@ export const About = () => {
             </p>
             <p className="text-[#4B5563] dark:text-[#D1D5DB] font-normal text-base leading-6 text-justify">
               I began my journey as a web developer in 2015, and since then,
-              I've continued to grow and evolve as a developer, taking on new
+              I&apos;ve continued to grow and evolve as a developer, taking on new
               challenges and learning the latest technologies along the way.
               Now, in my early thirties, 7 years after starting my web
-              development journey, I'm building cutting-edge web applications
+              development journey, I&apos;m building cutting-edge web applications
               using modern technologies such as Next.js, TypeScript, Nestjs,
               Tailwindcss, Supabase and much more.
             </p>
@@ -40,7 +40,7 @@ export const About = () => {
               end to end, from ideation all the way to development.
             </p>
             <p className="text-[#4B5563] dark:text-[#D1D5DB] font-normal text-base leading-6 text-justify">
-              When I'm not in full-on developer mode, you can find me hovering
+              When I&apos;m not in full-on developer mode, you can find me hovering
               around on twitter or on indie hacker, witnessing the journey of
               early startups or enjoying some free time. You can follow me on
               Twitter where I share tech-related bites and build in public, or
@@ -72,7 +72,7 @@ export const About = () => {
               </div>
             </div>
             <p className="text-[#4B5563] dark:text-[#D1D5DB] font-normal text-base leading-6"text="">
-            One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉
+            One last thing, I&apos;m available for freelance work, so feel free to reach out and say hello! I promise I don&apos;t bite 😉
             </p>
           </div>
         </div>

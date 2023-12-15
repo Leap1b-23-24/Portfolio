@@ -1023,7 +1023,7 @@ export default function Hooks() {
       </div>
       <div className="flex flex-wrap gap-2 w-full absolute z-0 top-[150px]">
         {data.map((item) => (
-          <div
+          <div key={item.id}
             className="data flex flex-wrap gap-1 bg-gray-800 rounded-md p-2"
             style={{ backgroundColor: color }}
           >

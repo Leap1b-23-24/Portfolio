@@ -32,7 +32,7 @@ export const Workcard = (props) => {
         </p>
         <div  className="flex flex-wrap gap-2 ">
           {buttonText.map((item)=>(
-            <Buttongray text={item} />
+            <Buttongray key={item.id} text={item} />
           ))}
         </div>
         <div className="flex items-center justify-center w-9 h-9">
