@@ -11,8 +11,8 @@ export const Expcard = (props) => {
           {props.position}
         </h3>
         <div className="w-full flex flex-col align-start gap-1 dark:text-[#D1D5DB]">
-          {props.jd.map((item) => (
-            <BulletPoint key={item.id} bgColor="bg-[#4B5563] dark:bg-[#D1D5DB]" text={item} />
+          {props.jd.map((item,index) => (
+            <BulletPoint key={index} bgColor="bg-[#4B5563] dark:bg-[#D1D5DB]" text={item} />
           ))}
         </div>
       </div>

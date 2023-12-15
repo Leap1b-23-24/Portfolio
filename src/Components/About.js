@@ -72,7 +72,7 @@ export const About = () => {
               </div>
             </div>
             <p className="text-[#4B5563] dark:text-[#D1D5DB] font-normal text-base leading-6"text="">
-            One last thing, I&apos;m available for freelance work, so feel free to reach out and say hello! I promise I don&apos;t bite 😉
+            One last thing, I am available for freelance work, so feel free to reach out and say hello! I promise I do not bite 😉
             </p>
           </div>
         </div>
