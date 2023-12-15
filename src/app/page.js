@@ -8,7 +8,7 @@ import { Experience } from "@/components/Experience";
 import { Work } from "@/components/Work";
 import { Get } from "@/components/Getintouch";
 import { Footer } from "@/components/Footer";
-import { createContext, useContext, useState } from "react";
+import { createContext, useState } from "react";
 import { useRef } from "react";
 import { ScrollWrapper } from "@/components/ScrollWrapper";
 
