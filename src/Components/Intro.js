@@ -13,8 +13,8 @@ export const Intro = () => {
             Hi, I’m Sagar 👋
           </h1>
           <p className="font-normal text-base text-[#4B5563] leading-6 text-justify dark:text-[#D1D5DB]">
-            I'm a full stack developer (React.js & Node.js) with a focus on
-            creating (and occasionally designing) exceptional digital
+            Im a full stack developer (React.js & Node.js) with a focus on
+            creating (and occasionally designinng) exceptional digital
             experiences that are fast, accessible, visually appealing, and
             responsive. Even though I have been creating web applications for
             over 7 years, I still love it as if it was something new.

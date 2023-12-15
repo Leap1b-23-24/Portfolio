@@ -12,7 +12,7 @@ export const Contacts = () => {
         <Buttongray text="Get in touch" />
         <div className="w-full flex justify-center">
           <p className="text-center max-w-xl text-xl text-[#4B5563] text-center leading-7 text-xl mt-4 dark:text-[#D1D5DB]">
-            What’s next? Feel free to reach out to me if you're looking for a
+            What&apos;s next? Feel free to reach out to me you are looking for a
             developer, have a query, or simply want to connect.
           </p>
         </div>
