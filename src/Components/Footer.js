@@ -5,7 +5,7 @@ import { FigmaIcon, FigmaIconDark } from "/assets/FigmaIcon";
 import { GitIcon, GitIconDark } from "/assets/GitIcon";
 import { PhoneIcon } from "/assets/PhoneIcon";
 import { TwitterIcon, TwitterIconDark } from "/assets/TwitterIcon";
-import { useTheme } from "@/app/page";
+import { useTheme } from "../app/page";
 export function Footer() {
   const { theme, toggleThemeSwitch } = useTheme();
   return (

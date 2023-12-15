@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 import { SunIcon } from "/assets/SunIcon";
 import { MoonIcon } from "/assets/MoonIcon";
-import { useTheme } from "@/app/page";
+import { useTheme } from "../app/page";
 
 export const Navbar = (props) => {
   const { theme } = useTheme();

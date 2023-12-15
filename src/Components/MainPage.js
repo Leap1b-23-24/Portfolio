@@ -1,6 +1,6 @@
 "use client";
 
-import { useTheme } from "@/app/page";
+import { useTheme } from "../app/page";
 import { FigmaIcon, FigmaIconDark } from "/assets/FigmaIcon";
 import { GitIcon, GitIconDark } from "/assets/GitIcon";
 import { LocationIcon, LocationIconDark } from "/assets/LocationIcon";
