@@ -13,8 +13,8 @@ export const Footer = (props) => {
     <footer className="bg-black">
       <div className="flex flex-col items-center px-[80px] py-[96px] w-full h-full gap-8">
         <p className="text-[20px] text-[400] text-[#D1D5DB] px-[330px] text-center  ">
-          What&apos;s next? Feel free to reach out to me if you're looking for a
-          developer, have a query, or simply want to connect.
+          What&apos;s next? Feel free to reach out to me if you&apos;re looking
+          for a developer, have a query, or simply want to connect.
         </p>
         <div className="flex flex-col items-center">
           <div className="flex gap-5">
