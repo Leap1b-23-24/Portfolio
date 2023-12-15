@@ -1,5 +1,5 @@
 "use client";
-import { InfoPage } from "@/components/InfoPage";
+import { InfoPage } from "../components/InfoPages";
 import { MainPage } from "../components/MainPage";
 import { Skills } from "../components/Skills";
 import { Upwork } from "../components/Upwork";

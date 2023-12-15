@@ -1,4 +1,4 @@
-import { Button } from "../components/Button";
+import { Button } from "./Buttons";
 import { CopyIcon } from "../components/assets/CopyIcon";
 import { EmailIcon } from "../components/assets/EmailIcon";
 import { FigmaIcon, FigmaIconDark } from "../components/assets/FigmaIcon";

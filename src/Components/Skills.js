@@ -1,4 +1,4 @@
-import { Button } from "../components/Button";
+import { Button } from "./Buttons";
 import { CypressIcon } from "../components/assets/CypressIcon";
 import { ExpressIcon } from "../components/assets/ExpressIcon";
 import { SocketIcon } from "../components/assets/SocketIcon";

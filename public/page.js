@@ -1,5 +1,5 @@
 import { Header } from "@/components/header";
-import { InfoPage } from "@/Components/InfoPage";
+import { InfoPage } from "@/components/InfoPages";
 import { MainPage } from "@/Components/MainPage";
 import { Skills } from "@/Components/Skills";
 import { Upwork } from "@/Components/Upwork";

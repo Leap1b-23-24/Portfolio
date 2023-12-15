@@ -1,6 +1,6 @@
-import { Button } from "../components/Button";
-import { Card } from "../components/Card";
-import { Card2 } from "../components/Card";
+import { Button } from "./Buttons";
+import { Card } from "./Cards";
+import { Card2 } from "./Cards";
 export const Work = () => {
   return (
     <div className="flex flex-col md:px-24 md:py-20 p-6 bg-white gap-12  dark:bg-neutral-900 text-justify">
