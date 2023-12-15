@@ -15,7 +15,7 @@ export default function Home() {
   const [mobilemenu, setMobilemenu] = useState(1)
   return (
     <darkTheme.Provider value={{pagemode, setPagemode}}>
-      <div className={"p-10 bg-white w-full m-auto"}
+      <div className={"p-10 bg-white max-w-screen-lg m-auto"}
       style={pagemode>0 ? {backgroundColor:"black", color:"white"}:{backgroundColor:"white"}}>
         <Navbar/>
         <Pageone pagemode ={pagemode}/>
