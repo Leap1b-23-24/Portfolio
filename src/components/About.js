@@ -12,7 +12,7 @@ export const About = () => {
     >
       <div className="sm:px-[32px] flex flex-col items-center">
         <Button text="About me" />
-        <div className="flex flex-col sm:flex-row gap-[48px]">
+        <div className="relative flex flex-col sm:flex-row gap-[48px]">
           <div className="h-[380px] sm:w-[584px] sm:h-[694px]">
             <img
               className="absolute w-[320px] h-360px sm:w-[400px] sm:h-[480px] left-[50%] sm:left-[0] sm:top-[40px] translate-x-[-50%] sm:translate-x-[0]"
