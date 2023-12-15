@@ -42,15 +42,14 @@ export const Experience = () => {
           Here is a quick summary of my most recent experiences:
         </p>
       </div>
-      {expText.map((item) => (
-        <>
-          <Expcard
-            logo={item.logo}
-            position={item.position}
-            duration={item.duration}
-            jd={item.jd}
-          ></Expcard>
-        </>
+      {expText.map((item, index) => (
+        <Expcard
+          key={index}
+          logo={item.logo}
+          position={item.position}
+          duration={item.duration}
+          jd={item.jd}
+        ></Expcard>
       ))}
     </div>
   );

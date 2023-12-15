@@ -22,8 +22,8 @@ export const Burgermenu = (props) => {
           </div>
         </div>
         <ul className="gap-4 p-4 items-start justify-around flex flex-col bg-white border-b border-[#F3F4F6] dark:border-[#1F2937] dark:bg-[#030712]">
-          {props.menuList.map((item) => (
-            <li key={`${item}1`}
+          {props.menuList.map((item,index) => (
+            <li key={`${index}1`}
               onClick={() => {
                 document
                   .getElementById(`${item}`)
