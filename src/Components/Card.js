@@ -1,5 +1,5 @@
-import { Button } from "./Button";
-import { EditIcon } from "./assets/EditIcon";
+import { Button } from "/Button";
+import { EditIcon } from "/assets/EditIcon";
 export const Card = () => {
   return (
     <div className="md:flex block p-0 m-0 border-box justify-center items-center w-full rounded-xl drop-shadow-md bg-gradient-to-b from-[#F9FAFB] to-[#F3F4F6] dark:from-[#374151] dark:to-[#374151]">

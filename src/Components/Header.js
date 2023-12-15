@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
-import { Navbar } from "@/Components/Navbar";
+import { Navbar } from "@/components/Navbar";
 import { useState } from "react";
-import { MenuIcon } from "./assets/MenuIcon";
-import { SunIcon } from "./assets/SunIcon";
-import { MoonIcon } from "./assets/MoonIcon";
+import { MenuIcon } from "/assets/MenuIcon";
+import { SunIcon } from "/assets/SunIcon";
+import { MoonIcon } from "/assets/MoonIcon";
 import { useTheme } from "@/app/page";
 
 //Menu Open

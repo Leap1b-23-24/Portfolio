@@ -1,7 +1,7 @@
-import { Button } from "./Button";
-import { CypressIcon } from "./assets/CypressIcon";
-import { ExpressIcon } from "./assets/ExpressIcon";
-import { SocketIcon } from "./assets/SocketIcon";
+import { Button } from "/Button";
+import { CypressIcon } from "/assets/CypressIcon";
+import { ExpressIcon } from "/assets/ExpressIcon";
+import { SocketIcon } from "/assets/SocketIcon";
 export function Skills() {
   return (
     <div className="p-20 dark:text-[#D1D5DB]">

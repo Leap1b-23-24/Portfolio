@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Button } from "/Button";
 export function InfoPage() {
   return (
     <div className="p-5  bg-gray-50 dark:bg-[#111827]">
