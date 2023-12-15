@@ -31,7 +31,7 @@ export default function Home() {
           <Skills></Skills>
           <Experience></Experience>
           <Work></Work>
-          <Gettouch gmail="binderiyaenkhtuvshin@gmail.com" phone="+976 99109677"></Gettouch>
+          <Gettouch gmail="binderiyaenkhtuvshin@gmail.com" phone="+97699109677"></Gettouch>
           <Footer></Footer>
 
         </div>
