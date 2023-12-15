@@ -21,15 +21,15 @@ export default function Home() {
         id="root"
         className={`${isOnDarkMode ? "dark" : undefined} max-w-[1536px] m-auto`}
       >
-        <Header/>
+        <Header />
         <Intro />
         <About />
-        <Skills/>
+        <Skills />
         <Experience />
         <Work />
         <Contacts />
         <Footer />
-        {/* <Projects/> */}
+        <Projects />
       </div>
     </DarkContext.Provider>
   );
