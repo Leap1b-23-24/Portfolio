@@ -16,7 +16,7 @@ export const Intro = () => {
             Hi, I’m Sagar 👋
           </h2>
           <p className="dark:text-[#D1D5DB] text-left text-[#4B5563] text-[16px] font-normal leading-6">
-            I'm a full stack developer (React.js & Node.js) with a focus on
+            I&apos;m a full stack developer (React.js & Node.js) with a focus on
             creating (and occasionally designing) exceptional digital
             experiences that are fast, accessible, visually appealing, and
             responsive. Even though I have been creating web applications for
@@ -31,8 +31,8 @@ export const Intro = () => {
             <p>Available for new projects</p>
           </div>
           <div className="flex mt-[48px]">
-            {logo.map((Item) => (
-              <Item />
+            {logo.map((Item, index) => (
+              <Item key={index} />
             ))}
           </div>
         </div>

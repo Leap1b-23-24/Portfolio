@@ -29,7 +29,7 @@ export const About = () => {
             </h2>
             <div className="text-[#4B5563] dark:text-[#D1D5DB] font-normal text-[16px] leading-[24px]">
               <p className="mb-[16px]">
-                I'm a passionate,{" "}
+                I&apos;m a passionate,{" "}
                 <a className="underline" href="wwww.google.com">
                   self-proclaimed designer
                 </a>{" "}
@@ -41,21 +41,22 @@ export const About = () => {
               </p>
               <p className="mb-[16px]">
                 I began my journey as a web developer in 2015, and since then,
-                I've continued to grow and evolve as a developer, taking on new
-                challenges and learning the latest technologies along the way.
-                Now, in my early thirties, 7 years after starting my web
-                development journey, I'm building cutting-edge web applications
-                using modern technologies such as Next.js, TypeScript, Nestjs,
-                Tailwindcss, Supabase and much more.
+                I&apos;ve continued to grow and evolve as a developer, taking on
+                new challenges and learning the latest technologies along the
+                way. Now, in my early thirties, 7 years after starting my web
+                development journey, I&apos;m building cutting-edge web
+                applications using modern technologies such as Next.js,
+                TypeScript, Nestjs, Tailwindcss, Supabase and much more.
               </p>
               <p className="mb-[16px]">
                 I am very much a progressive thinker and enjoy working on
                 products end to end, from ideation all the way to development.
               </p>
               <p className="mb-[16px]">
-                When I'm not in full-on developer mode, you can find me hovering
-                around on twitter or on indie hacker, witnessing the journey of
-                early startups or enjoying some free time. You can follow me on{" "}
+                When I&apos;m not in full-on developer mode, you can find me
+                hovering around on twitter or on indie hacker, witnessing the
+                journey of early startups or enjoying some free time. You can
+                follow me on{" "}
                 <a className="underline" href="www.google.com">
                   Twitter
                 </a>{" "}
@@ -78,8 +79,8 @@ export const About = () => {
                 </ul>
               </div>
               <p>
-                One last thing, I'm available for freelance work, so feel free
-                to reach out and say hello! I promise I don't bite 😉
+                One last thing, I&apos;m available for freelance work, so feel
+                free to reach out and say hello! I promise I don&apos;t bite 😉
               </p>
             </div>
           </div>

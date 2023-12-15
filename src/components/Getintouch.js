@@ -16,8 +16,8 @@ export const Get = () => {
       <div className="w-full sm:px-[32px] flex flex-col items-center">
         <Button text="Get in touch" />
         <p className="sm:w-[576px] mb-[24px] sm:mb-[48px] dark:text-[#D1D5DB] text-[#4B5563] font-normal text-xl text-center">
-          What’s next? Feel free to reach out to me if you're looking for a
-          developer, have a query, or simply want to connect.
+          What&apos;s next? Feel free to reach out to me if you&apos;re looking
+          for a developer, have a query, or simply want to connect.
         </p>
         <div className="flex gap-[16px] sm:gap-[20px] items-center sm:mb-[16px]">
           <img
@@ -49,8 +49,8 @@ export const Get = () => {
           You may also find me on these platforms!
         </p>
         <div className="flex gap-[4px]">
-          {logo.map((Item) => (
-            <Item />
+          {logo.map((Item, index) => (
+            <Item key={index} />
           ))}
         </div>
       </div>

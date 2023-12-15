@@ -45,6 +45,7 @@ export const Work = () => {
         </p>
         {cards.map((card, index) => (
           <div
+            key={index}
             className={`${
               index % 2 == 0 ? "sm:flex-row" : "sm:flex-row-reverse"
             } flex flex-col overflow-hidden sm:w-[1152px] rounded-[12px] shadow-md mb-[24px] sm:mb-[48px]`}
@@ -61,8 +62,11 @@ export const Work = () => {
                   {card.text}
                 </p>
                 <div className="flex flex-wrap gap-[8px] mb-[24px]">
-                  {but.map((item) => (
-                    <p className="dark:text-[#D1D5DB] text-[#4B5563] text-sm px-[20px] py-[4px] rounded-[12px] dark:bg-[#374151] bg-[#E5E7EB]">
+                  {but.map((item, index) => (
+                    <p
+                      key={index}
+                      className="dark:text-[#D1D5DB] text-[#4B5563] text-sm px-[20px] py-[4px] rounded-[12px] dark:bg-[#374151] bg-[#E5E7EB]"
+                    >
                       {item}
                     </p>
                   ))}

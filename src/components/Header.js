@@ -44,8 +44,11 @@ export const Header = ({ handleScroll, refs }) => {
                 </div>
               </div>
               <div className="p-[16px] sm:p-[0px] flex flex-col gap-[16px] sm:w-fit sm:items-center sm:flex-row">
-                {head.map((item) => (
-                  <p className="cursor-pointer dark:text-[#D1D5DB] text-[#4B5563]">
+                {head.map((item, index) => (
+                  <p
+                    key={index}
+                    className="cursor-pointer dark:text-[#D1D5DB] text-[#4B5563]"
+                  >
                     <a
                       onClick={() => {
                         handleScroll(refs[item]);
