@@ -11,7 +11,10 @@ export function Row(props) {
           <ul className="w-[384px]">
             {props.exps.map((item) => {
               return (
-                <li className="text-[16px] list-disc font-[400] text-[#D1D5DB] ml-7">
+                <li
+                  key={item.id}
+                  className="text-[16px] list-disc font-[400] text-[#D1D5DB] ml-7"
+                >
                   {item}
                 </li>
               );

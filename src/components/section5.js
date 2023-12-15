@@ -88,7 +88,14 @@ export const Section5 = (props) => {
           The skills, tools and technologies i am really good at:
         </p>
         {data.map((item) => {
-          return <Col title={item.title} text={item.text} btn={item.btn} />;
+          return (
+            <Col
+              key={item.id}
+              title={item.title}
+              text={item.text}
+              btn={item.btn}
+            />
+          );
         })}
       </div>
     </section>

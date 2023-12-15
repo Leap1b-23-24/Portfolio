@@ -10,7 +10,10 @@ export function Col(props) {
         <div className="flex flex-wrap gap-5 text-[14px] text-[400]">
           {props.btn.map((item) => {
             return (
-              <div className="px-[20px] py-[4px] bg-[#374151] rounded-[12px] text-white">
+              <div
+                key={item.id}
+                className="px-[20px] py-[4px] bg-[#374151] rounded-[12px] text-white"
+              >
                 {item}
               </div>
             );

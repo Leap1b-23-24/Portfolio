@@ -11,15 +11,15 @@ export default function Home() {
 export const Section1 = (props) => {
   return (
     <section className="bg-[#000]">
-      <div className="flex md:flex-row flex-col-reverse items-center justify-between px-[80px] w-full h-full md:px-[80px] md:py-[96px] px-[16px] py-[64px] ">
+      <div className="flex md:flex-row flex-col-reverse items-center justify-between w-full h-full md:px-[80px] md:py-[96px] px-[16px] py-[64px] ">
         <div className="flex justify-start flex-col">
           <div className="flex justify-start flex-col md:w-[40rem]">
             <h2 className="text-[50px] text-[600] text-white mb-8   ">
-              Heil, I'm Adolf Catler 🙋‍♂️
+              Heil, I&apos;m Adolf Catler 🙋‍♂️
             </h2>
             <p className="text-[16px] text-[400] leading-[24px] text-[#D1D5DB] mb-10">
-              I'm a full stack developer (React.js & Node.js) with a focus on
-              creating (and occasionally designing) exceptional digital
+              I&apos;m a full stack developer (React.js & Node.js) with a focus
+              on creating (and occasionally designing) exceptional digital
               experiences that are fast, accessible, visually appealing, and
               responsive. Even though I have been creating web applications for
               over 7 years, I still love it as if it was something new.
