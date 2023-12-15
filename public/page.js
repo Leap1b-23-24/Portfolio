@@ -1,4 +1,4 @@
-import { Header } from "@/Components/Header";
+import { Header } from "@/components/header";
 import { InfoPage } from "@/Components/InfoPage";
 import { MainPage } from "@/Components/MainPage";
 import { Skills } from "@/Components/Skills";

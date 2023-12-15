@@ -1,11 +1,11 @@
 "use client";
-import { InfoPage } from "@/Components/InfoPage";
-import { MainPage } from "@/Components/MainPage";
-import { Skills } from "@/Components/Skills";
-import { Upwork } from "@/Components/Upwork";
-import { Work } from "@/Components/Work";
-import { Footer } from "@/Components/Footer";
-import { Header } from "@/Components/Header";
+import { InfoPage } from "@/components/InfoPage";
+import { MainPage } from "@/components/MainPage";
+import { Skills } from "@/components/Skills";
+import { Upwork } from "@/components/Upwork";
+import { Work } from "@/components/Work";
+import { Footer } from "@/components/Footer";
+import { Header } from "@/components/header";
 import { createContext, useContext, useState } from "react";
 
 export const ColorContext = createContext();
