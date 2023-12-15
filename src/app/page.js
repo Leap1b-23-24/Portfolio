@@ -1,13 +1,13 @@
 "use client";
 
-import { About } from "@/components/About";
-import { Contact } from "@/components/Contact";
-import { Experience } from "@/components/Experience";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
-import { Hero } from "@/components/Hero";
-import { Skill } from "@/components/Skill";
-import { Work } from "@/components/Work";
+import { About } from "../components/About";
+import { Contact } from "../components/Contact";
+import { Experience } from "../components/Experience";
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+import { Hero } from "../components/Hero";
+import { Skill } from "../components/Skill";
+import { Work } from "../components/Work";
 import { createContext, useContext, useState } from "react";
 
 const DarkContext = createContext();

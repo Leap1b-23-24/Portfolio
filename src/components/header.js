@@ -1,8 +1,8 @@
 "use client";
 
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { Drawer } from "./Drawer";
-import { useTheme } from "@/app/page";
+import { useTheme } from "../app/page";
 
 export const Header = (props) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
