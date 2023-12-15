@@ -3,11 +3,11 @@
 import { About } from "../components/About";
 import { Contact } from "../components/Contact";
 import { Experience } from "../components/Experience";
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
+import { Footer } from "../components/Footer1";
+import { Header } from "../components/Header1";
 import { Hero } from "../components/Hero";
 import { Skill } from "../components/Skill";
-import { Work } from "../components/Work";
+import { Work } from "../components/Work1";
 import { createContext, useContext, useState } from "react";
 
 const DarkContext = createContext();
@@ -22,7 +22,7 @@ export default function Home() {
     <DarkContext.Provider value={{ isDark, toggleDarkMode }}>
       <div
         className={`${
-          isDark ? "dark" : ""
+          isDark ? "dark" : "light"
         } w-full dark:bg-white flex flex-col items-center`}
       >
         <div className="w-[80%] bg-white dark:bg-black dark:text-white">
