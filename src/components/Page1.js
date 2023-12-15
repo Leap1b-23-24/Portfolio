@@ -9,7 +9,7 @@ export function Page1() {
         <div className="xl:w-6/12">
           <div className="flex flex-col items-center gap-[48px] ">
             <h1 className="text-[36px] leading-10 font-semibold">
-              Hi, I'm Sagar
+              Hi, I am Sagar
             </h1>
             <img></img>
           </div>

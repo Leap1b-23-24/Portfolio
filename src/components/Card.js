@@ -14,7 +14,7 @@ export function Card(props) {
           <p>{props.list}</p>
         </div>
       </div>
-      <div className="flex gap-[48px] items-start dark:text-[#F9FAFB] hidden xl:flex">
+      <div className=" gap-[48px] items-start dark:text-[#F9FAFB] hidden xl:flex">
         {/* <img className="h-[28px] w-[102px]" src="cardlogo.png"></img> */}
         <Work imgs="/cardlogo.svg" />
 
