@@ -67,7 +67,7 @@ export const Section2 = (props) => {
             </ul>
             <p className="text-[16px] font-[400] text-[#D1D5DB]">
               One last thing, I&apos;m available for freelance work, so feel
-              free to reach out and say hello! I promise I don't bite 😉
+              free to reach out and say hello! I promise I don&apos;t bite 😉
             </p>
           </div>
         </div>
