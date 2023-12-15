@@ -53,9 +53,9 @@ export const Experience = () => {
                   {exp.position}
                 </p>
                 <ul className="text-base dark:text-[#D1D5DB] text-[#4B5563] font-normal flex flex-col gap-[4px]">
-                  {exp.exp.map((item) => {
+                  {exp.exp.map((item, index) => {
                     return (
-                      <li className="flex gap-[5px]">
+                      <li key={index} className="flex gap-[5px]">
                         <span> &#x2022;</span>
                         {item}
                       </li>
