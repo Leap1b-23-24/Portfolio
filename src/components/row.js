@@ -12,7 +12,7 @@ export function Row(props) {
             {props.exps.map((item) => {
               return (
                 <li
-                  key={item.id}
+                  key={item}
                   className="text-[16px] list-disc font-[400] text-[#D1D5DB] ml-7"
                 >
                   {item}

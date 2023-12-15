@@ -53,7 +53,7 @@ export const Section4 = (props) => {
         {data.map((item) => {
           return (
             <Row
-              key={item.id}
+              key={item}
               title={item.title}
               exps={item.exps}
               date={item.date}

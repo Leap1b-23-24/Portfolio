@@ -11,7 +11,7 @@ export function Col(props) {
           {props.btn.map((item) => {
             return (
               <div
-                key={item.id}
+                key={item}
                 className="px-[20px] py-[4px] bg-[#374151] rounded-[12px] text-white"
               >
                 {item}

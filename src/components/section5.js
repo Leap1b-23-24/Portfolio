@@ -90,7 +90,7 @@ export const Section5 = (props) => {
         {data.map((item) => {
           return (
             <Col
-              key={item.id}
+              key={item}
               title={item.title}
               text={item.text}
               btn={item.btn}
