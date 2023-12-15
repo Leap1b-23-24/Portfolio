@@ -22,7 +22,7 @@ export default function Home() {
     <DarkContext.Provider value={{ isDark, toggleDarkMode }}>
       <div
         className={`${
-          isDark ? "dark" : "light"
+          isDark ? "dark" : ""
         } w-full dark:bg-white flex flex-col items-center`}
       >
         <div className="w-[80%] bg-white dark:bg-black dark:text-white">
