@@ -29,7 +29,7 @@ export default function Home() {
         <Work />
         <Contacts />
         <Footer />
-        <Projects/>
+        {/* <Projects/> */}
       </div>
     </DarkContext.Provider>
   );
