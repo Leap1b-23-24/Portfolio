@@ -17,6 +17,7 @@ export function Card(props) {
       <div className="flex gap-[48px] items-start dark:text-[#F9FAFB] hidden xl:flex">
         {/* <img className="h-[28px] w-[102px]" src="cardlogo.png"></img> */}
         <Work imgs="/cardlogo.svg" />
+
         <div className="">
           <h3 className="text-[16px] leading-6 font-normal">{props.title}</h3>
           <div className="flex dark:text-[#D1D5DB]">
