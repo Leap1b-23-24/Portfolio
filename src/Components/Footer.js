@@ -19,7 +19,7 @@ export function Footer() {
         <div className="flex place-content-center items-center gap-4 mb-3">
           <EmailIcon />
           <span className="text-gray-900 font-semibold md:text-[36px] text-[18px] dark:text-[#F9FAFB]">
-            reachsagarshah@gmail.com
+            baterdene@gmail.com
           </span>
           <CopyIcon />
         </div>
