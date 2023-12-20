@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Drawer } from "./Drawer";
+import { Drawer } from "../Drawer";
 import { useTheme } from "../app/page";
 
 export const Header = (props) => {
